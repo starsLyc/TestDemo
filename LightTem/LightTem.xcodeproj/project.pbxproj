@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00138A991EA0930F00DBAA38 /* LPDevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00138A981EA0930F00DBAA38 /* LPDevViewController.m */; };
 		003383D71DF806040057A7A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003383D61DF806040057A7A4 /* main.m */; };
 		003383DA1DF806040057A7A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003383D91DF806040057A7A4 /* AppDelegate.m */; };
 		003383DD1DF806040057A7A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003383DC1DF806040057A7A4 /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00138A971EA0930F00DBAA38 /* LPDevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDevViewController.h; sourceTree = "<group>"; };
+		00138A981EA0930F00DBAA38 /* LPDevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDevViewController.m; sourceTree = "<group>"; };
 		003383D21DF806040057A7A4 /* LightTem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightTem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003383D61DF806040057A7A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		003383D81DF806040057A7A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				003383D91DF806040057A7A4 /* AppDelegate.m */,
 				003383DB1DF806040057A7A4 /* ViewController.h */,
 				003383DC1DF806040057A7A4 /* ViewController.m */,
+				00138A971EA0930F00DBAA38 /* LPDevViewController.h */,
+				00138A981EA0930F00DBAA38 /* LPDevViewController.m */,
 				003383DE1DF806040057A7A4 /* Main.storyboard */,
 				003383F61DF80CBF0057A7A4 /* Business */,
 				003383EF1DF80C990057A7A4 /* BlueTools */,
@@ -202,6 +207,7 @@
 			files = (
 				003383DD1DF806040057A7A4 /* ViewController.m in Sources */,
 				003383DA1DF806040057A7A4 /* AppDelegate.m in Sources */,
+				00138A991EA0930F00DBAA38 /* LPDevViewController.m in Sources */,
 				003383FC1DF80CBF0057A7A4 /* LPDataBase.m in Sources */,
 				003383D71DF806040057A7A4 /* main.m in Sources */,
 				003383F41DF80C990057A7A4 /* BlueTools.m in Sources */,
@@ -366,6 +372,7 @@
 				003383EB1DF806040057A7A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
